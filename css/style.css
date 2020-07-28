@@ -1,0 +1,39 @@
+#main-header img{
+    width: 100%;
+    height: 100%;
+}
+#main-header .display1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main-header .bg-black{
+    color: #fff;
+    background: #000000;
+}
+#main-header .menu-item{
+    width: 30%;
+}
+#main-header .menu-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.card-deck .card:hover{
+    background-color: rgba(0, 128, 0, 0.459);
+    box-shadow: 6px 6px 6px;
+    cursor: pointer;
+}
+
+.download{
+    cursor: pointer;
+}
+
+
+
+
+
+@media(min-width:1199px){
+    .menu-item{
+        padding: 2.86rem !important;
+       
+    }
+   
+}
